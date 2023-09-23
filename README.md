@@ -2,18 +2,18 @@
 
 Organizer Flask Web App is a simple web application for managing your notes and organizing your life.
 
-## Install the dependencies:
+### Install the dependencies:
 - flask
 - Flask-SQLAlchemy
 - flask-login
 
-## To start the Flask development server:
+### To start the Flask development server:
 python app.py
 
-## Visit `http://localhost:5000` in your web browser to access the web app.
+### Visit `http://localhost:5000` in your web browser to access the web app.
 
 
-## Acknowledgments
+### Acknowledgments
 
 - Flask - A lightweight Python web framework (https://flask.palletsprojects.com/)
 - Bootstrap - A popular CSS framework for building responsive web applications (https://getbootstrap.com/)

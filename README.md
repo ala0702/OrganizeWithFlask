@@ -1,6 +1,6 @@
 # organizer-flask-web-app
 
-Organizer Flask Web App is a simple web application for managing your notes and organizing your life.
+Organizer Flask Web App is a simple web application for managing your notes.
 
 ### Install the dependencies:
 - flask
@@ -9,9 +9,6 @@ Organizer Flask Web App is a simple web application for managing your notes and 
 
 ### To start the Flask development server:
 python app.py
-
-### Visit `http://localhost:5000` in your web browser to access the web app.
-
 
 ### Acknowledgments
 

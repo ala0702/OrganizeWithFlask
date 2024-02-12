@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Welcome!{% endblock %}
+{% block content %}
+    <section class="container new_note">
+        <div class="input">
+            <form method="post">
+                <label class="input-group-text justify-content-center" for="note">
+                    <h5 class="font-weight-bold">new note:</h5>
+                </label>
+                <textarea class="form-control" name="note" id="note" cols="30" rows="5"></textarea>
+
+                <button class="btn btn-primary btn-lg btn-block font-weight-bold" type="submit" id="button-sumbit__note">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <section class="container display_notes">
+        <h4>notes:</h4>
+            <ul class="list-group">
+            {% for note in user.notes %}
+                <li class="list-group-item">
+                    <article class="note_card">
+                        <small>{{ note.date }}</small>
+                        <div class="mb-1">
+                        {{ note.data }}
+                        </div>
+
+                        <button type="button" class="close" onclick="deleteNote({{note.id}})">
+                            <span >
+                                <i class="ri-delete-bin-line"></i>
+                            </span>
+                        </button>
+                    </article>
+                </li>
+            {% endfor %}
+            </ul>
+    </section>
+{% endblock %}

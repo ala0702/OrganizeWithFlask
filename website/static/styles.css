@@ -1,0 +1,36 @@
+
+:root{
+    --primary-color: #183a5f;
+    --secondary-color: #6c757d;
+    --test: #020a32;
+    --background-color:rgb(12, 15, 16)a;
+    --text-color: #333;
+    --button-hover-color: #0d1642;
+}
+
+.new_note {
+    background-color: transparent; /* Tło sekcji */
+    padding: 2.3rem; /* Padding dla sekcji */
+    margin-top: 3rem;
+    margin-bottom: 20px; /* Margines na dół */
+}
+
+.input-group-text {
+    font-weight: bold; /* Pogrubienie tekstu etykiety */
+}
+
+#button-sumbit__note {
+    padding: 10px 20px; /* Większy padding dla przycisku */
+    background-color: var(--primary-color); /* Tło przycisku */
+    color: #fff; /* Kolor tekstu przycisku */
+    border: none; /* Usunięcie ramki */
+}
+
+#button-sumbit__note:hover {
+    background-color: var(--button-hover-color); /* Kolor tła po najechaniu kursorem */
+}
+
+.note_card{
+    background-color: transparent; /* Tło sekcji */
+    padding: 0.3rem 1rem; /* Padding dla sekcji */
+}
